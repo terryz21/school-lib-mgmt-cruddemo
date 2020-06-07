@@ -1,3 +1,4 @@
 # Read Me First
-This is a simple CRUD library management system app to demo Spring Boot
+This is a simple CRUD library management system app used by librarians. Demo project for Spring Boot
 
+WORK IN PROGRESS
