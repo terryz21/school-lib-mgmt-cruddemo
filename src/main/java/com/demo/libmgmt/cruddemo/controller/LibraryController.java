@@ -1,14 +1,15 @@
 package com.demo.libmgmt.cruddemo.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class LibraryController {
 
-    @RequestMapping("/")
-    public String showHomePage() {
+    @GetMapping("/")
+    public String showHomePage(Model model) {
         // stub
-        return "";
+        return "home_page";
     }
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{/styles/home_page.css}" />
+</head>
+<body class="main">
+    <div class="header">
+        <div class="app-name">
+            <span>Library Management System</span>
+        </div>
+        <div class="link-container">
+            <a>Home</a>
+            <a>Logout</a>
+        </div>
+    </div>
+    <div class="panel-area">
+        <div class="top-btn-group">
+            <button class="panel-button">Process<br>Checkouts</button>
+            <button class="panel-button">Process<br>Returns</button>
+        </div>
+        <div class="bot-btn-group">
+            <button class="panel-button">Manage<br>Books</button>
+            <button class="panel-button">Manage<br>Students</button>
+        </div>
+    </div>
+</body>
+</html>

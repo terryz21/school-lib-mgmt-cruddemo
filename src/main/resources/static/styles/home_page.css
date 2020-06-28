@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Styling for header bar */
+.header {
+    background-color: #3e9651;
+    width: 100%;
+    /* height: 56px; */
+    flex-grow: 0;
+    flex-shrink: 0;
+    display:flex;
+    align-items: center; /* Vertical */
+    justify-content: center; /* Horizontal */
+    position: relative;
+}
+
+.app-name {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.app-name span {
+    position: absolute;
+    color: white;
+    font-family: "apple chancery", serif;
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-container a {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 24px 24px 24px 0px;
+}
+
+/* Styling for home page panel area */
+.panel-area {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.panel-button {
+    width: 40vh;
+    height: 32vh;
+    margin: 40px;
+    cursor: pointer;
+}
+
+
+
